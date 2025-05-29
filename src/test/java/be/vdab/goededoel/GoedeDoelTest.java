@@ -35,4 +35,9 @@ class GoedeDoelTest {
 		assertThat(doel).isNotEqualTo(new GoedeDoel("CliniClowns2"));
 	}
 
+	@Test
+	void doelVerschiltVanObjectMetAnderType() {
+		assertThat(doel).isNotEqualTo("Gewoon een String, niet een object met het type GoedeDoel!");
+	}
+
 }
