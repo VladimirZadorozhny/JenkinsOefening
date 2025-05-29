@@ -2,7 +2,7 @@ package be.vdab.goededoel;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-import be.vdab.goededoel.GoedeDoel;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
