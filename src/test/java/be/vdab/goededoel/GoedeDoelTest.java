@@ -40,4 +40,8 @@ class GoedeDoelTest {
 		assertThat(doel).isNotEqualTo("Gewoon een String, niet een object met het type GoedeDoel!");
 	}
 
+	@Test
+	void gelijkeDoelenHebbenDezelfdeHashcode() {
+		assertThat(doel).hasSameHashCodeAs(new GoedeDoel(NAAM));
+	}
 }
