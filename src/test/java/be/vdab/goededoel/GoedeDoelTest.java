@@ -49,7 +49,7 @@ class GoedeDoelTest {
 
 	@Test
 	void methodeSetOpbrengstWijzigtDeOpbrengst() {
-		doel.setOpbrengst(BigDecimal.ONE);
-		assertThat(doel.getOpbrengst()).isEqualByComparingTo("1");
+		doel.setOpbrengst(BigDecimal.TWO);
+		assertThat(doel.getOpbrengst()).isEqualByComparingTo("2");
 	}
 }
